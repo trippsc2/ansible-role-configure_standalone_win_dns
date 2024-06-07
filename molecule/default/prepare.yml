@@ -1,0 +1,6 @@
+---
+- name: Prepare
+  hosts:
+    - dc
+  roles:
+    - role: trippsc2.create_testing_ad_domain

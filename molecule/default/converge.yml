@@ -1,0 +1,6 @@
+---
+- name: Converge
+  hosts:
+    - subjects
+  roles:
+    - role: trippsc2.configure_standalone_dns_to_testing_ad_domain
